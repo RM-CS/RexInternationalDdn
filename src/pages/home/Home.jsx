@@ -1,15 +1,15 @@
 import React from 'react'
-import Image1 from '../../assets/banner01.jpg'
 import Category from '../../components/Category/Category'
 import ProductCard from '../../components/product/ProductCard'
 import Image3 from "../../assets/banner03.png"
 import Image4 from "../../assets/banner04.jpg"
+import Banner from '../../components/banner/Banner'
 
 const Home = () => {
   return (
     <>
-    <div>
-        <img src={Image1} alt="" width={"100%"} />
+    <div className="bg-slate-200 relative z-[-1]">
+        <Banner />
     </div>
     <div>
         <Category />
