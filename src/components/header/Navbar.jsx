@@ -110,9 +110,9 @@ const Navbar = () => {
     }
   return (
 
-    <div className='bg-[#2e8b57]'>
+    <div className='bg-[#2e8b57] font-philosopher'>
         <div className=' flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
-            <img className="p-4" src={Logo} alt='logo'/>
+            <Link to="/"><img className="p-4" src={Logo} alt='logo'/></Link>
             <ul className='md:flex hidden'>
                 {
                     MenuLinksOne.map((data, index)=>(
@@ -187,10 +187,11 @@ const Navbar = () => {
             </ul>
             <div onClick={handleNav} className='block md:hidden z-30'>
             
-                {!nav ? <X  className='text-2xl text-white cursor-pointer' /> : <Menu  className='text-2xl text-white cursor-pointer' />}
+                {!nav ? <X  className='text-2xl text-white cursor-pointer text-center' /> : <Menu  className='text-2xl text-white cursor-pointer' />}
             </div>
             <div className={!nav ? 'fixed left-0 top-0 w-full duration-500 bg-[#2e8b57] md:hidden' : 'md:hidden fixed left-[-100%] bg-[#2e8b57]'}>
-                <img className="p-4 px-4" src={Logo} alt='logo'/>
+                <Link to="/"><img className="p-4 px-4" src={Logo} alt='logo'/></Link>
+
                 <ul className='pt-4'>
                 {
                     MenuLinksOne.map((data, index)=>(
@@ -207,7 +208,7 @@ const Navbar = () => {
                                    </span>
                                    </Link>
                                    {/* Dropdown Links */}
-                                   <div className='absolute z-[999] hidden group-hover:block w-[300px] rounded-md bg-white shadow-md p-2 '>
+                                   <div className='absolute z-[1000] hidden group-hover:block w-[300px] rounded-md bg-white shadow-md p-2 '>
                                        <ul className='space-y-2'>
                                            {
                                                DropdownlinksOne.map((data, index)=>(

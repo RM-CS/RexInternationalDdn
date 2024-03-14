@@ -76,7 +76,7 @@ const ProductCard = () => {
 
   return (
     <>
-        <div className='h-auto w-full flex flex-wrap flex-col items-center text-center p-10 bg-slate-100 '>
+        <div className='h-auto w-full font-philosopher flex flex-wrap flex-col items-center text-center p-10 bg-slate-100 '>
         
         <div className="w-[90%] h-auto flex flex-wrap justify-around">
         {
@@ -89,7 +89,7 @@ const ProductCard = () => {
                 
                 <div className="px-5 pb-5">
                     <Link to="/">
-                        <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{data.name}</h5>
+                        <h5 className="text-xl font-semibold tracking-tight text-green-600">{data.name}</h5>
                     </Link>
                     <div className="flex items-center mt-2.5 mb-5">
                         <div className="flex items-center space-x-1 rtl:space-x-reverse">

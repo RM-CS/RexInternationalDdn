@@ -15,7 +15,7 @@ export default function Carousel({ slides }) {
 
   const nextSlide = () => {
     if (current === slides.length - 1) {
-      setAutoSlideEnabled(false); // Disable automatic sliding after reaching the last slide
+      setAutoSlideEnabled(true); // Disable automatic sliding after reaching the last slide
     }
     setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
@@ -25,7 +25,7 @@ export default function Carousel({ slides }) {
       const intervalId = setInterval(() => {
         // Automatically go to the next slide after a specified interval
         nextSlide();
-      }, 3000);
+      }, 2500);
 
       // Clear the interval when the component is unmounted or when autoSlideEnabled is set to false
       return () => clearInterval(intervalId);
@@ -50,13 +50,13 @@ export default function Carousel({ slides }) {
         className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-transparent border-0 text-white text-3xl z-30 pl-4"
         onClick={previousSlide}
       >
-        <BsFillArrowLeftCircleFill />
+        {/* <BsFillArrowLeftCircleFill /> */}
       </button>
       <button
         className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-transparent border-0 text-white text-3xl z-30 pr-4"
         onClick={nextSlide}
       >
-        <BsFillArrowRightCircleFill />
+        {/* <BsFillArrowRightCircleFill /> */}
       </button>
     </div>
   );

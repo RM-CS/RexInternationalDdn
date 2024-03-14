@@ -16,15 +16,15 @@ const Home = () => {
     </div>
     <div>
         <div className="w-full h-auto flex flex-wrap flex-col items-center bg-slate-100 pt-12 ">
-          <p className='text-green-800 font-bold text-3xl md:text-4xl text-center '>Trending Products</p>
-          <div className='w-36 h-1 border-b-4 border-green-400 mt-2 rounded-2xl md:mt-4 mb-12'></div>
+        <p className="text-2xl md:text-4xl font-bold leading-tight pb-2 text-transparent bg-clip-text bg-gradient-to-l from-green-900 via-green-600 to-green-500 text-left font-philosopher">Trending Products</p>
+          <div class="w-24 h-1 bg-gradient-to-l from-green-900 via-green-600 to-green-500 mt-2 mb-8 "></div>
         </div>
         <ProductCard />
     </div>
     <div>
         <div className="w-full h-auto flex flex-wrap flex-col items-center bg-slate-100">
-          <p className='text-green-800 font-bold text-3xl md:text-4xl text-center '>Kitchen Care</p>
-          <div className='w-36 h-1 border-b-4 border-green-400 mt-2 rounded-2xl md:mt-4 mb-12'></div>
+          <p className="text-2xl md:text-4xl font-bold leading-tight pb-2 text-transparent bg-clip-text bg-gradient-to-l from-green-900 via-green-600 to-green-500 text-left font-philosopher">Kitchen Care</p>
+          <div class="w-24 h-1 bg-gradient-to-l from-green-900 via-green-600 to-green-500 mt-2 mb-8 "></div>
         </div>
         <ProductCard />
     </div>
@@ -33,15 +33,16 @@ const Home = () => {
     </div>    
     <div>
     <div className="w-full h-auto flex flex-wrap flex-col items-center bg-slate-100 pt-12">
-          <p className='text-green-800 font-bold text-3xl md:text-4xl text-center '>Multi-Purpose Cleaner With Enzyme</p>
-          <div className='w-36 h-1 border-b-4 border-green-400 mt-2 rounded-2xl md:mt-4 mb-12'></div>
-        </div>
+          <p className="text-2xl md:text-4xl font-bold leading-tight pb-2 text-transparent bg-clip-text bg-gradient-to-l from-green-900 via-green-600 to-green-500 text-left font-philosopher">Multi-Purpose Cleaner With Enzyme</p>
+          <div class="w-24 h-1 bg-gradient-to-l from-green-900 via-green-600 to-green-500 mt-2 mb-8 "></div>          
+      </div>
         <ProductCard />
     </div>
     <div>
         <div className="w-full h-auto flex flex-wrap flex-col items-center bg-slate-100">
-          <p className='text-green-800 font-bold text-3xl md:text-4xl text-center '>Dish Wash With Enzyme</p>
-          <div className='w-36 h-1 border-b-4 border-green-400 mt-2 rounded-2xl md:mt-4 mb-12'></div>
+          <p className="text-2xl md:text-4xl font-bold leading-tight pb-2 text-transparent bg-clip-text bg-gradient-to-l from-green-900 via-green-600 to-green-500 text-left font-philosopher">Dish Wash With Enzyme</p>
+          <div class="w-24 h-1 bg-gradient-to-l from-green-900 via-green-600 to-green-500 mt-2 mb-8 "></div>          
+          
         </div>
         <ProductCard />
     </div>

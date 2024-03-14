@@ -7,7 +7,7 @@ const Footer = () => {
   
   return (
     <>
-        <footer className="relative bg-slate-700 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-8 mt-20 z-[-50]">
+        <footer className="relative font-philosopher bg-slate-700 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-8 mt-20 z-[-50]">
         
         <div className="flex flex-col md:flex-row">
           
