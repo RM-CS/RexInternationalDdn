@@ -1,9 +1,11 @@
 import React from 'react'
 import Category from '../../components/Category/Category'
-import ProductCard from '../../components/product/ProductCard'
 import Image3 from "../../assets/banner03.png"
 import Image4 from "../../assets/banner04.jpg"
 import Banner from '../../components/banner/Banner'
+import Kitchencare from '../../components/kitchencare/Kitchencare'
+import Trending from '../../components/trendingproducts/Trending'
+import ProductCard from '../../components/product/ProductCard'
 
 const Home = () => {
   return (
@@ -19,14 +21,14 @@ const Home = () => {
         <p className="text-2xl md:text-4xl font-bold leading-tight pb-2 text-transparent bg-clip-text bg-gradient-to-l from-green-900 via-green-600 to-green-500 text-left font-philosopher">Trending Products</p>
           <div class="w-24 h-1 bg-gradient-to-l from-green-900 via-green-600 to-green-500 mt-2 mb-8 "></div>
         </div>
-        <ProductCard />
+        <Trending />
     </div>
     <div>
         <div className="w-full h-auto flex flex-wrap flex-col items-center bg-slate-100">
           <p className="text-2xl md:text-4xl font-bold leading-tight pb-2 text-transparent bg-clip-text bg-gradient-to-l from-green-900 via-green-600 to-green-500 text-left font-philosopher">Kitchen Care</p>
           <div class="w-24 h-1 bg-gradient-to-l from-green-900 via-green-600 to-green-500 mt-2 mb-8 "></div>
         </div>
-        <ProductCard />
+        <Kitchencare />
     </div>
     <div>
         <img src={Image3} alt="" width={"100%"} />

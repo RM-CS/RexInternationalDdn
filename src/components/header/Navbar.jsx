@@ -21,47 +21,47 @@ const DropdownlinksOne = [
     {
         id: 1,
         name: "Cizar Care Bio Septic",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 2,
         name: "Toilet Bowl Cleanser With Enzyme",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 3,
         name: "Multi-Purpose Cleanser With Enzyme",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 4,
         name: "Kitchen Cleanser With Enzyme",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 5,
         name: "Dish Wash With Enzyme",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 6,
         name: "All In One Detergent With Enzyme",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 7,
         name: "Tap And Title Cleanser",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 8,
         name: "Herbal Pet Deodorizer",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     },
     {
         id: 9,
         name: "Poop And Pee Odour Eliminator",
-        link: "/"
+        link: "/shopbyproducts/ktichencare"
     }
 
 ]
