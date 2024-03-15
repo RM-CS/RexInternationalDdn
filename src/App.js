@@ -6,6 +6,8 @@ import Home from './pages/home/Home';
 import Aboutus from './pages/aboutus/Aboutus';
 import Contact from './pages/contactus/Contact';
 import Faq from './pages/faq/Faq';
+import Kitchencarepage from './pages/kitchencare/Kitchencarepage';
+import Kitchencaredetails from './components/kitchencare/Kitchencaredetails';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Route exact path='/about' element={<Aboutus />}/>
       <Route exact path='/contact' element={<Contact />}/>
       <Route exact path='/faq' element={<Faq />}/>
+      <Route exact path='/shopbyproducts/ktichencare' element={<Kitchencarepage />}/>
+      <Route exact path='/kitchendetail' element={<Kitchencaredetails />}/>
     </Routes>
     <Footer />
 
