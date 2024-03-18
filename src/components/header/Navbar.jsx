@@ -82,7 +82,7 @@ const Navbar = () => {
     <>
       <nav className='bg-white text-black py-2 px-[80px] sticky top-0 justify-between md:text-x md:flex hidden font-philosopher z-[50]'>
         <div className='md:flex'>
-            <Link to="/"><img src={Image1} alt="image" /></Link>
+            <Link to="/"><img src={Image1} alt="" /></Link>
         </div>
         <ul className='md:hidden md:items-center lg:flex hidden'>
             <li className='px-4'>For Enquiry :  <CallIcon /> +91 xxxxx xxxxx</li> 

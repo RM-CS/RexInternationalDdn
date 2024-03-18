@@ -18,28 +18,28 @@ const SlideCarousel = () => {
     <>
         <div className='flex overflow-hidden space-x-12 group mx-40 my-12'>
             <div className='flex space-x-16 h-20 animate-loop-scroll group-hover:paused'>
-                <img src={Image2} alt="image" className='max-w-none' />
-                <img src={Image1} alt="image" className='max-w-none' />
-                <img src={Image4} alt="image" className='max-w-none' />
-                <img src={Image3} alt="image" className='max-w-none' />
-                <img src={Image5} alt="image" className='max-w-none' />
-                <img src={Image6} alt="image" className='max-w-none' />
-                <img src={Image7} alt="image" className='max-w-none' />
-                <img src={Image8} alt="image" className='max-w-none' />
-                <img src={Image9} alt="image" className='max-w-none' />
-                <img src={Image10} alt="image" className='max-w-none' />
+                <img src={Image1} alt="" className='max-w-none' />
+                <img src={Image4} alt="" className='max-w-none' />
+                <img src={Image3} alt="" className='max-w-none' />
+                <img src={Image2} alt="" className='max-w-none' />
+                <img src={Image5} alt="" className='max-w-none' />
+                <img src={Image6} alt="" className='max-w-none' />
+                <img src={Image7} alt="" className='max-w-none' />
+                <img src={Image8} alt="" className='max-w-none' />
+                <img src={Image9} alt="" className='max-w-none' />
+                <img src={Image10} alt="" className='max-w-none' />
             </div>
             <div className='flex space-x-16 h-20 animate-loop-scroll group-hover:paused' aria-hidden='true'>
-                <img src={Image2} alt="image" className='max-w-none' />
-                <img src={Image1} alt="image" className='max-w-none' />
-                <img src={Image4} alt="image" className='max-w-none' />
-                <img src={Image3} alt="image" className='max-w-none' />
-                <img src={Image5} alt="image" className='max-w-none' />
-                <img src={Image6} alt="image" className='max-w-none' />
-                <img src={Image7} alt="image" className='max-w-none' />
-                <img src={Image8} alt="image" className='max-w-none' />
-                <img src={Image9} alt="image" className='max-w-none' />
-                <img src={Image10} alt="image" className='max-w-none' />
+                <img src={Image2} alt="" className='max-w-none' />
+                <img src={Image1} alt="" className='max-w-none' />
+                <img src={Image4} alt="" className='max-w-none' />
+                <img src={Image3} alt="" className='max-w-none' />
+                <img src={Image5} alt="" className='max-w-none' />
+                <img src={Image6} alt="" className='max-w-none' />
+                <img src={Image7} alt="" className='max-w-none' />
+                <img src={Image8} alt="" className='max-w-none' />
+                <img src={Image9} alt="" className='max-w-none' />
+                <img src={Image10} alt="" className='max-w-none' />
             </div>
 
         </div>

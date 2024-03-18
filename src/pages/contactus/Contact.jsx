@@ -6,9 +6,8 @@ const Contact = () => {
   return (
  
     <>
-
       <div className='w-full h-auto flex flex-wrap flex-col'>
-        <img src={Image1} alt="" width={"100%"} />
+        <img src={Image1} alt="contactusimage" width={"100%"} />
       </div>
       <div data-aos="zoom-in" data-aos-duration="1000" className="max-w-screen-xl mt-6 px-8 font-philosopher grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto text-gray-900 rounded-lg shadow-lg bg-gray-100">
         <div className="flex flex-col justify-between">
@@ -21,7 +20,7 @@ const Contact = () => {
 
             </h2>
             <div className="p-6 pl-0">
-              <img src={Image2} className="rounded-lg" />
+              <img src={Image2} className="rounded-lg" alt='contactus'/>
             </div>
           </div>
         </div>

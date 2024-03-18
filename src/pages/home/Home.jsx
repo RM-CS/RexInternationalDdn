@@ -33,7 +33,6 @@ const Home = () => {
     </div>
     {/* Products ends */}
 
-
     <div className='mb-6'>
         <img src={Image2} alt="" width={"100%"}/>
     </div>
@@ -58,7 +57,6 @@ const Home = () => {
     </div>
     {/* Accordion ends */}
     
-
     {/* Products starts */}    
     <div>
       <div className="w-full h-auto flex flex-wrap flex-col items-center bg-slate-100 pt-12 font-philosopher">
@@ -67,7 +65,8 @@ const Home = () => {
       </div>
       <CardFive />
     </div>
-    {/* Products ends */}
+    {/* Products ends */}  
+
     </>
   )
 }

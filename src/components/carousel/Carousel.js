@@ -4,11 +4,6 @@ export default function Carousel({ slides }) {
   const [current, setCurrent] = useState(0);
   const [autoSlideEnabled, setAutoSlideEnabled] = useState(true);
 
-  const previousSlide = () => {
-    setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
-    setAutoSlideEnabled(true); // Allow automatic sliding after manual navigation
-  };
-
   const nextSlide = () => {
     if (current === slides.length - 1) {
       setAutoSlideEnabled(true); // Disable automatic sliding after reaching the last slide
@@ -25,7 +20,7 @@ export default function Carousel({ slides }) {
 
       // Clear the interval when the component is unmounted or when autoSlideEnabled is set to false
       return () => clearInterval(intervalId);
-    }
+    } // eslint-disable-next-line
   }, [current, slides.length, autoSlideEnabled]);
 
   return (
