@@ -6,7 +6,6 @@ import Carousel from '../../components/carousel/Carousel';
 import Image1 from "../../assets/banner01.jpg"
 import Image2 from "../../assets/banner02.png"
 
-
 const Banner = () => {
   let slides = [
     Image1,
@@ -15,9 +14,13 @@ const Banner = () => {
   ];
 
   return (
+    <>
+     
     <div className="max-w-screen-xl mx-auto">
+      
       <Carousel slides={slides}/>
     </div>
+    </>
   );
 };
 
