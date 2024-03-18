@@ -1,14 +1,12 @@
 import React from 'react'
 import Image1 from '../../assets/AboutContent01.png'
-import Image2 from "../../assets/banner03.png"
-import Image3 from "../../assets/banner04.jpg"
+import Image2 from "../../assets/banner04.jpg"
 import Banner from '../../components/banner/Banner'
 import CardOne from '../../components/card/CardOne'
 import CardThree from '../../components/card/CardThree'
 import CardFour from '../../components/card/CardFour'
 import CardFive from '../../components/card/CardFive'
 import Accordion from '../../components/accordian/AccordianTab'
-
 
 const Home = () => {
   return (
@@ -37,7 +35,7 @@ const Home = () => {
 
 
     <div className='mb-6'>
-        <img src={Image3} alt="" width={"100%"}/>
+        <img src={Image2} alt="" width={"100%"}/>
     </div>
 
     {/* Products starts */}    
@@ -70,9 +68,6 @@ const Home = () => {
       <CardFive />
     </div>
     {/* Products ends */}
-
-    
-
     </>
   )
 }
