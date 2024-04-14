@@ -5,9 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        philosopher:[ "Philosopher", 'sans-serif'],
-      },
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
       },

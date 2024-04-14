@@ -1,46 +1,49 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import category from '../../category'
-import Enquiry from '../enquiry/Enquiry'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
 const CardFour = () => {
     const HouseKeeping = category["HouseKeeping"];
 
-    const [showModal, setShowModal] = useState(false)
     useEffect(()=>{
         Aos.init()
       },[])
 
   return (
     <>
-        <div className='h-auto w-full font-philosopher flex flex-wrap flex-col items-center text-center p-10 bg-slate-100 ' data-aos="fade-zoom-out" data-aos-duration="700">
+    <div className='h-auto'>
+        <div className='w-full flex flex-wrap flex-col items-center text-center p-10 bg-slate-100' data-aos="fade-zoom-out" data-aos-duration="700">
         
-        <div className="w-[80%] h-auto flex flex-wrap justify-around">
+        <div className="w-[80%] flex flex-wrap justify-around">
         {
             HouseKeeping && HouseKeeping.map((data, index)=> (
-        <div key={index} className="w-64 flex flex-col items-center mb-12 shadow-md bg-white rounded-xl p-2">
-            <button>
-                <img className="p-8 rounded-t-lg" src={data.image} alt="productimage" />
-            </button>
-            <div className="px-5 pb-5">
-                <Link to="/">
-                    <h5 className="text-xl font-semibold tracking-tight text-blue-600">{data.name}</h5>
-                </Link>
-            </div>
-            <div className="flex py-4 space-x-4 justify-center">
-                <button onClick={() => setShowModal(true)} className="bg-blue-950 text-blue-400 border border-blue-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
-                    Enquire Now
-                </button>
-            </div>
-            {showModal && <Enquiry onClose={() => setShowModal(false)} />}
+                <div key={index} className="w-64 flex flex-col items-center mb-12 shadow-md bg-white border-slate-400 border-2 rounded-xl p-2">
+                                <button>
+                                    <img className="rounded-t-lg" src={data.image} alt="productimage" />
+                                </button>
+                                <div className="px-5 pb-5">
+                                    <Link to="/">
+                                        <h5 className="text-[18px] py-2 font-semibold tracking-tight text-blue-900">{data.name}</h5>
+                                    </Link>
+                                    <p className='text-[12px] text-left'>{data.desc}</p>
+                                </div>
+                                {/* <div className="flex flex-col justify-end h-full">
+                                    <div className="flex place-items-baseline">
+                                        <Link to="/contact" className="bg-blue-950 text-white px-3 py-2 rounded-xl mb-2 hover:bg-blue-800 duration-100">
+                                            Enquire Now
+                                        </Link>
+                                    </div>
+                                </div> */}
             </div>
             ))
-        } 
-       
-        </div>
+        }       
     </div>
+        </div>
+
+    </div>
+   
     </>
   )
 }

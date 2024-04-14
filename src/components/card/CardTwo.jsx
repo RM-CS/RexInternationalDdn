@@ -9,10 +9,10 @@ const CardTwo = () => {
                 </div>
                 <div className="p-12 flex justify-start items-center md:order-last" data-aos="fade-up">
                     <div className="pl-12 pr-12 md:pl-12">
-                        <h2 className="text-2xl lg:text-md font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-l from-green-900 via-green-600 to-green-500 text-left">
+                        <h2 className="text-2xl lg:text-md font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-l from-red-900 via-red-600 to-red-500 text-left">
                             Why to choose Rex International brand?
                         </h2>
-                        <div class="w-24 h-1 bg-gradient-to-l from-green-900 via-green-600 to-green-500 mt-2 mb-8 "></div>
+                        <div class="w-24 h-1 bg-gradient-to-l from-red-900 via-red-600 to-red-500 mt-2 mb-8 "></div>
                         <p className="mt-2 text-justify lg:text-justify">
                             Choosing Rex International means choosing sustainability, innovation, and excellence. Here are several reasons why our brand stands out: </p>
                         <ul className="text-justify lg:text-justify">

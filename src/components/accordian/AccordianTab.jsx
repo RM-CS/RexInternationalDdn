@@ -6,8 +6,8 @@ const AccordionTab = ({ title, children, isOpen, onClick }) => {
     const transitionDuration = isOpen ? '2s' : '0.6s';
     
     return (
-        <div className="border my-5 border-blue-300 hover:border-red-500 rounded-t-xl font-philosopher">
-            <div className={`flex justify-between items-center px-4 py-5 rounded-t-xl hover:text-red-500 hover:bg-red-200 font-semibold cursor-pointer ${isOpen ? 'hover:text-red-500 bg-red-200 font-semibold text-red-500' : ''}`} onClick={onClick}>
+        <div className="border my-5 border-blue-300 hover:border-blue-500 rounded-t-xl">
+            <div className={`flex justify-between items-center px-4 py-5 rounded-t-xl hover:text-blue-500 hover:bg-blue-200 font-semibold cursor-pointer ${isOpen ? 'hover:text-blue-500 bg-blue-200 font-semibold text-blue-500' : ''}`} onClick={onClick}>
                 <span className="font-semibold">{title}</span>
                 <span className="text-xl">{isOpen ? <b><ArrowBigUp /></b> : <b><ArrowBigDown /></b>}</span>
             </div>

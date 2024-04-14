@@ -1,0 +1,6 @@
+.background{
+    width: 100%;
+    background: url('../../assets/counter-bg.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
