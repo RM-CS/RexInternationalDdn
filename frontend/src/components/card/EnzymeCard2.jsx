@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import SpinnerLoader from '../../components/spinnerLoader/SpinnerLoader'
+import SpinnerLoader from '../spinnerLoader/SpinnerLoader'
 
 const EnzymeCard2 = ({Ques, Ans, Img}) => {
     
